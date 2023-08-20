@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="bg-[#F9F6E2] w-full">
+    <header id="header" class="bg-[#F9F6E2] w-full">
         <div class="hero min-h-screen text-center">
             <div class="hero-content flex-col lg:flex-row-reverse items-center gap-10 lg:gap-24">
                 <img src="images/Summer 1.png" class="max-w-sm lg:max-w-lg rounded-lg" />
@@ -30,8 +30,8 @@
             </div>
         </div>
     </header>
-    <main class="bg-[#F8F8F8]">
-        <section class="flex flex-col md:flex-row lg:flex-row pb-12">
+    <main class="relative flex-col">
+        <section id="section" class="bg-[#F8F8F8] flex flex-col md:flex-row lg:flex-row pb-12">
             <div>
                 <div class=" pl-6 lg:pl-20 pt-24">
                     <div>
@@ -190,6 +190,19 @@
                 </div>
             </div>
         </section>
+        <div class="absolute z-50 top-[150px] lg:ml-[470px] lg:mr-auto lg:p-[50px] lg:w-1/2">
+            <div id="float-card" class="hidden card w-[500px] bg-base-100 shadow-xl">
+                <figure><img class="w-[160px] h-[160px] p-6 mt-16" src="images/congo.png" alt="Shoes" /></figure>
+                <div class="text-center card-body">
+                  <h2 class="text-center font-bold text-5xl">Congratulations</h2>
+                  <p class="mt-3 text-xl text-[#11111180]">Your Purchase the product</p>
+                  <div class="mt-3 card-actions justify-center">
+                    <button id="home-button" class="text-white text-xl font-semibold w-[180px] h-[56px] rounded-lg bg-[#E527B2]">Go Home</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
     </main>
     <script src="js/utilities.js"></script>
 </body>

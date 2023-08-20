@@ -71,3 +71,14 @@ document.getElementById('apply').addEventListener('click', function () {
     }
 
 })
+
+// document.getElementById('float-card').hidden = true;
+document.getElementById('purchase').addEventListener('click',function(){
+    document.getElementById('float-card').classList.remove('hidden');
+    document.getElementById('header').classList.add('brightness-50');
+    document.getElementById('section').classList.add('brightness-50');
+    document
+    document.getElementById('home-button').addEventListener('click', function(){
+        window.location.href='index.html';
+    })
+})
